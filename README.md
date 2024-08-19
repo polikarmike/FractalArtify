@@ -8,9 +8,9 @@
 
 Ниже приведены примеры фрактальных изображений, которые можно создать с помощью данного генератора:
 
-![Fractal Example 1](output/example1.png)
-![Fractal Example 2](output/example4.png)
-![Fractal Example 2](output/example8.png)
+![Fractal Example 1](output/Example1.png)
+![Fractal Example 2](output/Example4.png)
+![Fractal Example 2](output/Example8.png)
 
 ## Основные возможности
 
