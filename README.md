@@ -1,45 +1,45 @@
 # FractalArtify
 
-## Описание проекта
+## Project Description
 
-Этот проект реализует генератор фрактального пламени с возможностью последовательного и параллельного рендеринга. Пользователь может настраивать различные параметры генерации, включая количество итераций, количество уравнений, разрешение изображения, а также выбирать вариации для создания уникальных фрактальных изображений.
+This project implements a fractal flame generator with options for both sequential and parallel rendering. Users can customize various generation parameters, including the number of iterations, the number of equations, image resolution, and choose variations to create unique fractal images.
 
-## Примеры фракталов
+## Fractal Examples
 
-Ниже приведены примеры фрактальных изображений, которые можно создать с помощью данного генератора:
+Below are examples of fractal images that can be created using this generator:
 
 ![Fractal Example 1](output/Example1.png)
 ![Fractal Example 2](output/Example4.png)
-![Fractal Example 2](output/Example8.png)
+![Fractal Example 3](output/Example8.png)
 
-## Основные возможности
+## Key Features
 
-- **Последовательный рендеринг**: позволяет рендерить изображение в одном потоке.
-- **Параллельный рендеринг**: ускоряет процесс рендеринга за счёт использования многопоточности.
-- **Настраиваемые параметры**: пользователь может выбирать количество итераций, количество уравнений, разрешение и вариации для создания фрактала.
-- **Сохранение изображений**: сгенерированные фракталы сохраняются в формате PNG в папке `output`.
+- **Sequential Rendering**: Renders the image in a single thread.
+- **Parallel Rendering**: Speeds up the rendering process by utilizing multithreading.
+- **Customizable Parameters**: Users can choose the number of iterations, the number of equations, resolution, and variations to create the fractal.
+- **Image Saving**: Generated fractals are saved as PNG files in the `output` folder.
 
-## Доступные вариации
+## Available Variations
 
-Фрактальные изображения создаются с использованием различных вариаций, которые изменяют форму и структуру фрактала. В проекте поддерживаются следующие вариации:
+Fractal images are created using various variations that alter the shape and structure of the fractal. The following variations are supported in the project:
 
-1. **Spherical**: Преобразует точки на сферической поверхности, создавая округлые формы.
-2. **Disk**: Преобразует точки в дисковую структуру, создавая эффекты в виде концентрических кругов.
-3. **Heart**: Преобразует точки, формируя сердцевидные фигуры.
-4. **Polar**: Преобразует декартовы координаты в полярные, создавая эффект спиралей.
-5. **Sinusoidal**: Применяет синусоидальное преобразование, создавая волнистые формы.
+1. **Spherical**: Transforms points on a spherical surface, creating rounded shapes.
+2. **Disk**: Transforms points into a disk structure, creating concentric circle effects.
+3. **Heart**: Transforms points to form heart-shaped figures.
+4. **Polar**: Converts Cartesian coordinates into polar coordinates, creating spiral effects.
+5. **Sinusoidal**: Applies a sinusoidal transformation, creating wavy forms.
 
-## Влияние параметров на генерацию фракталов
+## Impact of Parameters on Fractal Generation
 
-- **Количество итераций (Number of Iterations)**: Определяет количество повторений математического процесса, что влияет на сложность и детализацию изображения.
-- **Количество уравнений (Number of Equations)**: Влияет на количество различных преобразований, используемых для создания фрактала.
-- **Количество шагов итерации (Number of Iteration Steps)**: Контролирует точность отображения фрактала, где большее количество шагов даёт более точное изображение.
-- **Разрешение по X и Y (Resolution for X and Y)**: Определяет размер итогового изображения по горизонтали и вертикали, что напрямую влияет на детализацию.
-- **Количество симметрий (Number of Symmetries)**: Добавляет симметрию к фракталу, что может привести к созданию более упорядоченных и эстетически приятных изображений.
+- **Number of Iterations**: Determines the number of repetitions in the mathematical process, affecting the complexity and detail of the image.
+- **Number of Equations**: Influences the number of different transformations used to create the fractal.
+- **Number of Iteration Steps**: Controls the accuracy of the fractal display, where a higher number of steps results in a more precise image.
+- **Resolution for X and Y**: Determines the final image size horizontally and vertically, directly impacting the level of detail.
+- **Number of Symmetries**: Adds symmetry to the fractal, which can result in more orderly and aesthetically pleasing images.
 
-## Используемые технологии
+## Technologies Used
 
-- **Java**: основной язык программирования для реализации проекта.
-- **Многопоточность**: для ускорения процесса рендеринга.
-- **Вариации фракталов**: различные математические функции для создания уникальных фрактальных форм.
-- **AWT (Abstract Window Toolkit)**: используется для работы с графикой и изображениями, включая создание и сохранение PNG-файлов.
+- **Java**: The main programming language for the project implementation.
+- **Multithreading**: To speed up the rendering process.
+- **Fractal Variations**: Various mathematical functions for creating unique fractal forms.
+- **AWT (Abstract Window Toolkit)**: Used for handling graphics and images, including creating and saving PNG files.
